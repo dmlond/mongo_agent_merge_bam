@@ -1,7 +1,3 @@
-# build this into a mongo_agent:candidate
-# and then build mongo_agent_base
-# docker build -t mongo_agent:candidate .
-# docker build -t dmlond/mongo_agent_merge_bam
 FROM dmlond/bwa_samtools_base
 MAINTAINER Darin London <darin.london@duke.edu>
 
