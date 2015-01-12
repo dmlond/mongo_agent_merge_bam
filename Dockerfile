@@ -12,4 +12,4 @@ ADD merge_bam_agent.rb /usr/local/bin/merge_bam_agent.rb
 RUN ["chmod", "777", "/usr/local/bin/merge_bam_agent.rb"]
 USER bwa_user
 WORKDIR /home/bwa_user
-CMD ["/user/local/bin/merge_bam_agent.rb"]
+CMD ["/usr/local/bin/merge_bam_agent.rb"]
